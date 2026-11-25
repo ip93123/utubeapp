@@ -4,7 +4,7 @@ A high-performance, ad-free desktop YouTube client powered by the privacy and ad
 
 1. **Triple-Layer Adblocking:
 
-2.  **Built-in SponsorBlock Integration:**
+2.  **Built-in adblock Integration:**
    - Automatically queries the public
    - Seamlessly skips sponsored segments, intros, outros, subscription reminders, and self-promos.
    - Shows a clean floating notification toast when a segment is skipped (`⏩ Skipped Sponsor [01:20 - 02:45]`).
