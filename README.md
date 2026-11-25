@@ -7,22 +7,19 @@ A high-performance, ad-free desktop YouTube client powered by the privacy and ad
 ## 🚀 Features
 
 1. **Triple-Layer Adblocking:**
-   - **Layer 1 (Ghostery / uBlock Engine):** Uses `@ghostery/adblocker-electron` to block network ads, trackers, and analytics with full prebuilt EasyList and filter rules.
-   - **Layer 2 (Dedicated Host Interception):** Explicitly cancels requests to `doubleclick.net`, `googleads`, `adservice`, and internal YouTube ad break telemetry endpoints.
-   - **Layer 3 (FadBlock Fallback):** If YouTube ever attempts server-side video ad stitching, the player immediately mutes, speeds up playback to 16x, jumps to the end in under 50ms, and clicks skip buttons automatically.
 
-2. **Built-in SponsorBlock Integration:**
+3. **Built-in
    - Automatically queries the public [SponsorBlock API](https://sponsor.ajay.app) for the current video.
    - Seamlessly skips sponsored segments, intros, outros, subscription reminders, and self-promos.
    - Shows a clean floating notification toast when a segment is skipped (`⏩ Skipped Sponsor [01:20 - 02:45]`).
 
-3. **Anti-Adblock Popup & Backdrop Neutralizer:**
+4. **Anti-Adblock Popup & Backdrop Neutralizer:**
    - Neutralizes YouTube's `"Ad blockers violate YouTube's Terms of Service"` dialogs and automatically restores smooth video playback.
 
-4. **Privacy & Google Login Compatible:**
+5. **Privacy & Google Login Compatible:**
    - Masks User-Agent as standard Google Chrome on Windows so Google Account login works without `"This browser or app may not be secure"` restrictions.
 
-5. **Clean Aesthetic UI:**
+6. **Clean Aesthetic UI:**
    - Removes homepage banner ads, promotional mealbars, and merch shelves.
    - Dark mode background with sleek custom scrollbars.
 
